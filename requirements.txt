@@ -1,1 +1,5 @@
 pandas
+pandas
+scikit-learn
+sentence-transformers
+torch
