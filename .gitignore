@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+llm/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Logs
+*.log
+*.out
+
+# Output folders
+outputs/
+
+# Cloned external repos / downloaded source repos
+locomo/
+
+# Raw downloaded datasets
+data/raw/
+
+# Processed/generated data
+data/processed/*.json
+
+# Model weights
+*.pt
+*.pth
+
+# Optional cache/model folders
+.cache/
+models/
+checkpoints/
